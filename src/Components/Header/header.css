@@ -1,13 +1,46 @@
 .head {
-  background-color: bisque;
+  background-color: #013a6b;
+  background-image: -webkit-linear-gradient(30deg, #013a6b 50%, #004e95 50%);
+  box-shadow: 5px #555;
+  height: 10vh;
+  font-family: "Titillium Web", sans-serif;
+}
+.nav {
+  display: block;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .wrapper {
-  background-color: rgb(61, 4, 4);
-  padding: 4rem 0;
-  margin: 4rem 0;
-  border-radius: 5px;
-  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 .logo {
-  color: #aaa;
+  color: rgb(179, 179, 179);
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.webdev {
+  font-size: 1.4rem;
+}
+.menuList {
+  padding: 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(179, 179, 179);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.menuList:last-child {
+  color: rgb(70, 146, 104);
+}
+.menuList:hover {
+  background-color: #013a6b;
+  color: antiquewhite;
+  text-decoration: underline;
 }

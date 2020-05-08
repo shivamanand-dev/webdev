@@ -1,0 +1,37 @@
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.hero {
+  height: 90vh;
+  padding: 3rem;
+  color: aliceblue;
+  background: rgb(34, 34, 34);
+}
+.light {
+  text-align: center;
+}
+.box {
+  margin: 0 auto;
+  width: 3rem;
+  border-radius: 5px;
+  height: 3rem;
+  background-color: teal;
+}
+.bulbOn {
+  height: 10rem;
+}
+.bulb {
+  animation: swing 3s ease-in-out infinite alternate;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}

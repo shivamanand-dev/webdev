@@ -5,8 +5,18 @@ import reset from "../../reset.css";
 const header = () => {
   return (
     <div className={classes.head}>
-      <div className={classes.wrapper}>
-        <h1 className={classes.logo}>webdev</h1>
+      <div className={classes.wrapper + " " + classes.flex + " " + classes.nav}>
+        <div>
+          <h1 className={classes.logo}>
+            <span className={classes.webdev}>Webdev</span> <br /> tutorials
+          </h1>
+        </div>
+        <ul className={classes.flex}>
+          <li className={classes.menuList}>Home</li>
+          <li className={classes.menuList}>Contact US</li>
+          <li className={classes.menuList}>About Us</li>
+          <li className={classes.menuList}>Sign UP</li>
+        </ul>
       </div>
     </div>
   );

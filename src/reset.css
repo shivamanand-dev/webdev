@@ -126,3 +126,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* My Reset */
+
+button,
+input,
+textarea {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
+
+img {
+  font-size: 0;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}

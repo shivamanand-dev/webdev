@@ -5,7 +5,7 @@
   padding: 0 30px;
 }
 .hero {
-  height: 78vh;
+  height: 80vh;
   padding: 3rem;
   color: aliceblue;
   background: rgb(0, 0, 0);
@@ -313,13 +313,16 @@
 }
 .sloganContainer {
   padding: 1rem 2rem;
-  width: 45%;
+  width: 80%;
 }
 .slogan {
+  font-family: "Indie Flower", cursive;
   color: rgb(179, 179, 179);
   padding-top: 10rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .signUP {

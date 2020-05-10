@@ -44,3 +44,11 @@
   color: antiquewhite;
   text-decoration: underline;
 }
+@media all and(max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  .hide {
+    display: none;
+  }
+}

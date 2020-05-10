@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .wrapper {
   max-width: 1300px;
   width: 100%;
@@ -313,7 +316,6 @@
 }
 .sloganContainer {
   padding: 1rem 2rem;
-  width: 80%;
 }
 .slogan {
   font-family: "Indie Flower", cursive;
@@ -327,5 +329,15 @@
 
 .signUP {
   padding: 1rem 2rem;
-  width: 45%;
+}
+@media all and(max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    background-color: rosybrown;
+  }
+  .slogan {
+    display: none;
+  }
 }

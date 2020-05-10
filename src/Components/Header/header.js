@@ -11,12 +11,14 @@ const header = () => {
             <span className={classes.webdev}>Webdev</span> <br /> tutorials
           </h1>
         </div>
-        <ul className={classes.flex}>
-          <li className={classes.menuList}>Home</li>
-          <li className={classes.menuList}>Contact US</li>
-          <li className={classes.menuList}>About Us</li>
-          <li className={classes.menuList}>Sign UP</li>
-        </ul>
+        <div className={classes.hide}>
+          <ul className={classes.flex}>
+            <li className={classes.menuList}>Home</li>
+            <li className={classes.menuList}>Contact US</li>
+            <li className={classes.menuList}>About Us</li>
+            <li className={classes.menuList}>Sign UP</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

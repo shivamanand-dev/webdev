@@ -31,6 +31,10 @@ body {
   text-transform: uppercase;
   font-size: 1.1rem;
 }
+.strong {
+  font-weight: 400;
+  color: #0279e7;
+}
 .webdev {
   font-size: 1.4rem;
 }
@@ -318,11 +322,13 @@ body {
   padding: 1rem 2rem;
 }
 .slogan {
-  font-family: "Indie Flower", cursive;
-  color: rgb(179, 179, 179);
-  padding-top: 10rem;
-  word-spacing: 1rem;
-  letter-spacing: 0.3rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #49f4faf5;
+  padding-top: 2rem;
+  padding-right: 11rem;
+  word-spacing: 0.8rem;
+  line-height: 6rem;
   text-transform: uppercase;
   font-size: 4rem;
 }
@@ -330,14 +336,14 @@ body {
 .signUP {
   padding: 1rem 2rem;
 }
-@media all and(max-width: 768px) {
+@media (max-width: 768px) {
   html {
     overflow-x: hidden;
   }
-  body {
-    background-color: rosybrown;
-  }
-  .slogan {
-    display: none;
+  .hero {
+    height: 80vh;
+    padding: 3rem;
+    color: aliceblue;
+    background: rgb(0, 0, 0);
   }
 }

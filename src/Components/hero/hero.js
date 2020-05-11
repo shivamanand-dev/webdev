@@ -11,7 +11,10 @@ const hero = () => {
           <div className={classes.gridColTwo}>
             <div className={classes.sloganContainer}>
               <h2 className={classes.slogan}>
-                we are the one who help you in making your ideas go online
+                <strong className={classes.strong}>we</strong> are the one who{" "}
+                <strong className={classes.strong}>help you</strong> in making
+                your ideas <strong className={classes.strong}>go online</strong>
+                .
               </h2>
             </div>
             <div className={classes.signUP}></div>

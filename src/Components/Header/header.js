@@ -15,7 +15,7 @@ const header = () => {
           <ul className={classes.flex}>
             <li className={classes.menuList}>Home</li>
             <li className={classes.menuList}>Courses</li>
-            <li className={classes.menuList}>Contact US</li>
+            <li className={classes.menuList}>Contact Us</li>
             <li className={classes.menuList}>About Us</li>
             <li className={classes.menuList}>Sign UP</li>
           </ul>

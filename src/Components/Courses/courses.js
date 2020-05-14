@@ -4,14 +4,12 @@ import reset from "../../reset.css";
 
 const courses = () => {
   return (
-    <section className={classes.wrapper + " " + classes.courses}>
-      <div class="circles">
-        <div class="circle-multiple">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
-        </div>
-      </div>
+    <section
+      className={
+        classes.wrapper + " " + classes.courses + " " + classes.gradientBorder
+      }
+    >
+      <h3 className={classes.title}>Courses</h3>
     </section>
   );
 };

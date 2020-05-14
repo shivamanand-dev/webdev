@@ -1,0 +1,11 @@
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 0 30px;
+}
+.courses {
+  padding: 5rem 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+}

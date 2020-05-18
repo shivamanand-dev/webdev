@@ -9,7 +9,11 @@ const hero = () => {
       <div className={classes.wrapper + " " + classes.light}>
         <div className={classes.tag}>
           <div className={classes.gridColTwo}>
-            <div className={classes.sloganContainer}>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="2000"
+              className={classes.sloganContainer}
+            >
               <h2 className={classes.slogan}>
                 <strong className={classes.strong}>we</strong> are the one who{" "}
                 <strong className={classes.strong}>help you</strong> in making

@@ -1,13 +1,9 @@
-import React from "react";
-import ReactRain from "react-rain-animation";
+import React, { useEffect } from "react";
 import classes from "./footer.css";
 
-// import all the styles
-import "react-rain-animation/lib/style.css";
-
-const footer = (props) => {
+const footer = () => {
   return (
-    <div className={classes.footerhai}>
+    <div className={classes.footerhai} data-aos="fade-down">
       <h2>from footer</h2>
     </div>
   );

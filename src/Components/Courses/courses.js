@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./courses.css";
 import reset from "../../reset.css";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const courses = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <section className={classes.wrapper + " " + classes.coursesParent}>
-      <h3 className={classes.title}>Courses</h3>
+    <section
+      data-aos="flip-left"
+      className={classes.wrapper + " " + classes.coursesParent}
+    >
+      <h3 id="courses" className={classes.title} data-aos="fade-down">
+        Courses
+      </h3>
       <div className={classes.courses}>
         <article className={classes.gridCol2}>
           <div className={classes.htmlCircle}>

@@ -28,7 +28,7 @@
 .webdev {
   font-size: 1.4rem;
 }
-.menuList {
+.menuList a {
   padding: 1.5rem;
   font-size: 1rem;
   text-transform: uppercase;
@@ -36,10 +36,10 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.menuList:last-child {
+/* .menuList:last-child {
   color: rgb(70, 146, 104);
-}
-.menuList:hover {
+} */
+.menuList a:hover {
   background-color: #013a6b;
   color: antiquewhite;
   text-decoration: underline;

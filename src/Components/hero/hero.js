@@ -2,10 +2,6 @@ import React from "react";
 import classes from "./hero.css";
 import reset from "../../reset.css";
 import blb from "../../images/bulb-on.png";
-import ReactRain from "react-rain-animation";
-
-// import all the styles
-import "react-rain-animation/lib/style.css";
 
 const hero = () => {
   return (

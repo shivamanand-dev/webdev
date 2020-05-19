@@ -5,9 +5,8 @@ import reset from "../../reset.css";
 const courses = () => {
   return (
     <section className={classes.wrapper + " " + classes.coursesParent}>
+      <h3 className={classes.title}>Courses</h3>
       <div className={classes.courses}>
-        <h3 className={classes.title}>Courses</h3>
-
         <article className={classes.gridCol2}>
           <div className={classes.htmlCircle}>
             <div className={classes.htmlCircleText}>
@@ -40,8 +39,8 @@ const courses = () => {
             </p>
           </div>
         </article>
-        <div className={classes.goToButton}>
-          <button className={classes.goTo}>
+        <div className={classes.goTo}>
+          <button className={classes.btn}>
             <a
               href="https://www.youtube.com/watch?v=yUo-sSO8Ynk&list=PL3g2rnYkcEYHybP6tADZ11U_wzTx-RZ0y"
               target="_blank"

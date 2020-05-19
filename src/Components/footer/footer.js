@@ -8,7 +8,7 @@ import "react-rain-animation/lib/style.css";
 const footer = (props) => {
   return (
     <div className={classes.footerhai}>
-      <ReactRain numDrops="500" />
+      <h2>from footer</h2>
     </div>
   );
 };

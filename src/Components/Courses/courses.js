@@ -2,16 +2,11 @@ import React, { useEffect } from "react";
 import classes from "./courses.css";
 import reset from "../../reset.css";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 const courses = () => {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
     <section
       data-aos="flip-left"
+      data-aos-duration="1500"
       className={classes.wrapper + " " + classes.coursesParent}
     >
       <h3 id="courses" className={classes.title} data-aos="fade-down">
@@ -41,12 +36,11 @@ const courses = () => {
                   HTML Tutorials in Hindi
                 </a>
               </span>{" "}
-              <br /> The course focuses on HTML basics which is the backbone of
-              any website. The course is suitable for the beginner in web
-              development. It carries an explanation of all the basic elements
-              of HTML in Hindi. The explanation is followed by tasks and
-              solution which leads to building a strong foundation of the
-              subject.
+              <ul className={classes.aboutTextUl}>
+                <li>learn html basics</li>
+                <li>task and solutions provided</li>
+                <li>build you own website</li>
+              </ul>
             </p>
           </div>
         </article>

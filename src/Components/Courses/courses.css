@@ -132,7 +132,11 @@ body {
   font-family: "Exo 2", sans-serif;
   line-height: 2.4rem;
 }
-
+.aboutTextUl {
+  line-height: 4rem;
+  padding: 3rem 0 0 3rem;
+  list-style-type: square;
+}
 .aboutTextTitle a {
   text-decoration: underline;
   text-decoration-color: rgb(255, 216, 216);

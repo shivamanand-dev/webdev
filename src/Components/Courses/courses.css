@@ -8,17 +8,16 @@ body {
   margin: 30px auto;
   padding: 0 30px;
 }
+
 .courses {
   padding: 5rem 0;
   font-family: "Acme", sans-serif;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px 10px rgb(75, 74, 74);
+  clip-path: polygon(100% 0, 92% 84%, 50% 100%, 8% 83%, 0 0);
   background: whitesmoke;
-  transition: box-shadow 1s ease-in-out;
 }
-
-.courses:hover {
-  box-shadow: 2px 10px 30px 20px rgb(114, 113, 113);
+.coursesParent {
+  margin: 0 auto;
 }
 
 .title {
@@ -74,6 +73,7 @@ body {
   border-radius: 50%;
   border-style: outset;
   transform: rotate(30deg);
+  background: coral;
   transition: box-shadow 1s ease-in-out;
   transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out;
@@ -102,13 +102,13 @@ body {
 .htmlCircleText:hover {
   transform: rotate(-10deg);
 }
-.htmlCircleTitle {
+.htmlCircleTitle a {
   font-size: 5rem;
-  padding-top: 4rem;
+  padding: 4rem 0;
   color: rgb(54, 52, 52);
   transition: font-size 1s ease-in-out;
 }
-.htmlCircleTitle:hover {
+.htmlCircleTitle a:hover {
   font-size: 5.5rem;
   color: rgb(85, 79, 79);
 }
@@ -123,8 +123,20 @@ body {
   line-height: 2.4rem;
 }
 
-.aboutTextTitle {
+.aboutTextTitle a {
   text-decoration: underline;
-  text-decoration-color: orange;
+  text-decoration-color: brown;
   color: brown;
+  cursor: pointer;
+}
+.goToButton {
+  text-align: center;
+}
+.goTo {
+  background: rgb(95, 89, 89);
+  width: 100px;
+  height: 50px;
+}
+.goTo a {
+  color: blue;
 }
